@@ -25,6 +25,7 @@ const ImageSlider = () => {
         return () => {
             clearInterval(interval);
         };
+            // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [slide]);
 
     const ChangeSlideDots = (index) => {
