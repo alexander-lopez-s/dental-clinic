@@ -89,6 +89,7 @@
     transition-duration: 0.4s;
     border-radius: 3px;
     border: 0.5px solid black;
+    cursor: pointer;
   }
 
   .map-button {
@@ -102,7 +103,7 @@
     transition-duration: 0.4s;
     border-radius: 3px;
     border: 0.5px solid black;
-
+    cursor: pointer;
   }
 
   .services-button:hover {
@@ -238,4 +239,86 @@ table {
 
 .visit-us-text {
   font-family: 'Neucha', cursive;
+}
+
+/*** Styles services ***/
+
+.services-title {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #E5E4E2;
+  padding-top: 10px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E4E2;
+
+}
+
+.services-pictures {
+  width: 400px;
+  height: 250px;
+
+}
+
+.cards h4, p, button {
+  display: flex;
+  text-align: left;
+  align-items: left;
+}
+
+.our-services {
+  font-family: 'Neucha', cursive;
+}
+
+.book {
+  background-color: #7fc400; 
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  border: 0.5px solid black;
+}
+
+.book:hover {
+  background-color: #0197b8; 
+  color: black;
+  cursor: pointer;
+}
+
+/** Styling for the footer **/
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0197b8;
+  margin-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 3px;
+  background: #0197b8;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Neucha', cursive;
+  
 }

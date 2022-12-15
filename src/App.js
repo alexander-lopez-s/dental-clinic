@@ -3,6 +3,8 @@ import Header from "../src/components/Header"
 import GreetUser from "./components/Greeting";
 import ContactUs from "./components/Contact";
 import ImageSlider from "./components/Gallery";
+import Services from './components/Services';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
      <GreetUser/>
      <ContactUs/>
      <ImageSlider/>
+     <Services/>
+     <Footer/>
     </div>
   );
 }
