@@ -62,10 +62,9 @@ const ImageSlider = () => {
             <div className="gallery-text">
                 <h1 className="visit-us-text">¡Visítanos!</h1>
                 <p>Contamos con comodas instalaciones, facil accesso y con la maquinaria mas moderna.</p>
-                <p><b>🕗 Horarios de atención</b>
-                    <br></br>
+                <p><b>🕗 Horarios de atención</b></p>
                     <hr></hr>
-                    <FcCheckmark/> Lunes a viernes de 8 am a 7pm
+                    <p><FcCheckmark/> Lunes a viernes de 8 am a 7pm
                     <br></br>
                     <FcCheckmark/> Sábado de 8am a 6pm
                     <br></br>
@@ -92,6 +91,7 @@ const styles = {
         fontSize: 30,
         color: '#172823',
         cursor: 'pointer',
+        marginTop: 200,
     },
 
     imageDiv: {

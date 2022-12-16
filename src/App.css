@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 /* Styling for the header */
 
@@ -27,7 +27,6 @@
   font-size: 40px;
   color: #7fc400;
   text-shadow: 1px 1px black;  
-  font-family: 'Pacifico', cursive;
 }
 
 .location-text {
@@ -50,13 +49,11 @@
   .company-name-text {
     font-weight: bolder;
     color: #0197b8;
-    font-family: 'Neucha', cursive;
   }
 
   .motto {
     color: #0c0c0b;
     font-weight: bold;
-    font-family: 'Neucha', cursive;
   }
 
 .greeting-picture-container {
@@ -146,7 +143,6 @@
 }
 
 .contact-us-text-title {
-  font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
   text-shadow: 1px 1px black;  
   font-size: 22px;
@@ -209,8 +205,6 @@ table {
 
 .why-choosing-us {
   font-size: 22px;
-  margin-bottom: 5px;
-  font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
   text-shadow: 1px 1px black;  
   padding: 10px;
@@ -237,9 +231,7 @@ table {
   margin: auto;
 }
 
-.visit-us-text {
-  font-family: 'Neucha', cursive;
-}
+
 
 /*** Styles services ***/
 
@@ -263,7 +255,7 @@ table {
 
 }
 
-.services-pictures {
+.cards {
   width: 400px;
   height: 250px;
 
@@ -271,13 +263,11 @@ table {
 
 .cards h4, p, button {
   display: flex;
+  margin-left: 10px;
   text-align: left;
   align-items: left;
 }
 
-.our-services {
-  font-family: 'Neucha', cursive;
-}
 
 .book {
   background-color: #7fc400; 
@@ -294,6 +284,110 @@ table {
   background-color: #0197b8; 
   color: black;
   cursor: pointer;
+}
+
+/*** Animations for the services gallery ***/
+#ultrasonic-cleaning {
+  background-image: url("https://mejorconsalud.as.com/wp-content/uploads/2022/05/limpiador-dientes-ultrasonido-768x471.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ultrasonic-cleaning:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+
+#fillers {
+  background-image: url("https://cdn-dlpoa.nitrocdn.com/IPEAEWlqeJlpAEOEgpwHrpJrAZyCciSI/assets/static/optimized/rev-45a4189/wp-content/uploads/2017/07/empastes-dentales.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fillers:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+
+#sellantes {
+  background-image: url("https://www.avodent.com/wp-content/uploads/2015/03/composiciones-sellador-dental.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sellantes:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+
+#wisdom-tooth-surgery {
+  background-image: url("https://www.topdoctors.com.co/files/Image/large/6fc071d061bf8b1ec8dabb0f32c2d478.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wisdom-tooth-surgery:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#root-canal {
+  background-image: url("https://clinicastoma.com/wp-content/uploads/2014/11/2254-clinica-dental-stoma-alcorcon-y-mostoles-endodoncia-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#root-canal:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#dental-extractions {
+  background-image: url("https://brooklynblvddental.com/wp-content/uploads/2021/02/tooth-extractions.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#dental-extractions:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#implants {
+  background-image: url("https://www.doralsedationdentistry.com/wp-content/uploads/2020/06/dental-white-fillings.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#implants:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#dental-crowns {
+  background-image: url("https://costaricadentalteam.com/wp-content/uploads/2019/10/Dental-Crowns-in-Costa-Rica.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#dental-crowns:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#fixed-prostheses {
+  background-image: url("https://polydentia.es/wp-content/uploads/2020/01/protesis-dental-fija-puente.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fixed-prostheses:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#removable-dentures {
+  background-image: url("https://clinicasmilodon.com/wp-content/uploads/2019/03/puente2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#removable-dentures:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
+}
+#dental-veneers {
+  background-image: url("https://www.topdoctors.es/files/Image/large/577fa208-6980-4b65-a44c-55988ac97da0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#dental-veneers:hover {
+  background-image: url("https://www.healthyteeth.org/wp-content/uploads/2018/04/HealthyTeeth-Tooth-Development.png");
 }
 
 /** Styling for the footer **/
@@ -318,7 +412,6 @@ table {
   left: 0;
   text-align: center;
   width: 100%;
-  font-size: 50px;
-  font-family: 'Neucha', cursive;
-  
+  font-size: 50px;  
 }
+

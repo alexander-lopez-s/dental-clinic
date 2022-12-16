@@ -14,7 +14,6 @@ const ContactUs = () => {
                             <tr>
                                 <th className="why-choosing-us" colSpan={2}>¿Por qué elegirnos?</th>
                             </tr>
-                            <br></br>
                         </thead>
                         <tbody>
                             <tr>
