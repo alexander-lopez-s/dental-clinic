@@ -66,9 +66,9 @@ const ImageSlider = () => {
                     <hr></hr>
                     <p><FcCheckmark/> Lunes a viernes de 8 am a 7pm
                     <br></br>
-                    <FcCheckmark/> Sábado de 8am a 6pm
+                    <FcCheckmark/> Sábados de 8am a 6pm
                     <br></br>
-                    <FcCheckmark/> Y domingos de 8am a 1pm</p>
+                    <FcCheckmark/> Domingos de 8am a 1pm</p>
                     <p><b>🗓️ Agenda tu cita</b></p>
                 <p><FcPhoneAndroid/> 7830-3101  <FcPhone/>  2270-6503</p>
             </div>

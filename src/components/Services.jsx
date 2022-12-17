@@ -1,7 +1,7 @@
 
 function Services() {
     return (
-        <div className="services-title">
+        <div className="services-title" id="services-title">
             <h1 className="our-services">Nuestros servicios</h1>
             <hr></hr>
             <br></br>
