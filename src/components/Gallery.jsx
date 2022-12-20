@@ -39,7 +39,7 @@ const ImageSlider = () => {
 
     return (
         <div className="gallery-container">
-            <div style={styles.root} lassName="gallery">
+            <div style={styles.root} className="gallery">
                 <img style={styles.imageDiv} src={images[slide]} alt="slider-pictures" />
                 <button style={styles.buttons} onClick={PrevSlide}>
                     <FaArrowLeft />

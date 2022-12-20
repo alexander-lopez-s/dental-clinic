@@ -63,6 +63,12 @@ function Services() {
             <p>$10.00</p>
             <button className="book">Reservar</button>
         </div>
+
+        <div className="cards" id="whitening">
+            <h4><b>Blanqueamiento dental </b></h4>
+            <p>$10.00</p>
+            <button className="book">Reservar</button>
+        </div>
     </div>
     </div>
     )

@@ -7,7 +7,7 @@ import { RiInstagramFill } from 'react-icons/ri';
 const Footer = () => {
     return (
         <div className='footer-text'>
-            <h4>OdontoPlus Clinic</h4>
+            <h4>OdontoPlus Clinic S.A. de C.V. </h4>
         <div className="social-icons">
         <a href="facebook.com"><GrFacebook/></a>
         <a href="twitter.com"><BsTwitter/></a>
