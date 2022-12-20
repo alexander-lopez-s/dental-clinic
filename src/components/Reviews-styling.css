@@ -8,6 +8,7 @@
     border-radius: 5px;
     gap: 20px;
 
+
 }
 
 .card {
@@ -16,6 +17,7 @@
     background: #0197b8;
     border-radius: 20px;
     margin-left: 25px;
+    margin-top: 20px;
 }
 
 .card:hover {
@@ -72,8 +74,10 @@
 
 .card-action {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 13px;
+    text-align: center;
+    justify-content: left;
+    margin-left: 10px;
+    font-size: 14px;
 
 }
