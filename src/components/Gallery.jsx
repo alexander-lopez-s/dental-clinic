@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
 import { FcCheckmark } from 'react-icons/fc';
-import { FcPhone } from 'react-icons/fc';
-import { FcPhoneAndroid } from 'react-icons/fc';
 
 let interval;
 const images = [
@@ -63,14 +61,11 @@ const ImageSlider = () => {
                 <h1 className="visit-us-text">¡Visítanos!</h1>
                 <p>Contamos con comodas instalaciones, facil accesso y con la maquinaria mas moderna.</p>
                 <p><b>🕗 Horarios de atención</b></p>
-                    <hr></hr>
-                    <p><FcCheckmark/> Lunes a viernes de 8 am a 7pm
-                    <br></br>
-                    <FcCheckmark/> Sábados de 8am a 6pm
-                    <br></br>
-                    <FcCheckmark/> Domingos de 8am a 1pm</p>
+                    <p><FcCheckmark/> Lunes a Viernes - 8 am a 7pm</p>
+                   <p> <FcCheckmark/> Sábados - 8am a 6pm </p>
+                    <p><FcCheckmark/> Domingos - 8am a 1pm</p>
                     <p><b>🗓️ Agenda tu cita</b></p>
-                <p><FcPhoneAndroid/> 7830-3101  <FcPhone/>  2270-6503</p>
+                <p> 📱 7830-3101  📞 2270-6503</p>
             </div>
         </div>
     );

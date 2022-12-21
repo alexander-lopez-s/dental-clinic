@@ -249,26 +249,28 @@ table {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   gap: 25px;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
   background-color: #E5E4E2;
 
 }
 
-.cards {
+.cards-services {
+  vertical-align: bottom;
   width: 400px;
   height: 250px;
   border-radius: 10px;
+  margin-left: 30px;
+  padding-top: 20px;
 
 }
 
-.cards h4, p, button {
+.cards-services h4, .cards-services p, .book {
   display: flex;
-  margin-left: 10px;
   text-align: left;
   align-items: left;
+  margin-left: 30px;
 }
-
 
 .book {
   background-color: #7fc400; 
@@ -285,6 +287,11 @@ table {
   background-color: #0197b8; 
   color: black;
   cursor: pointer;
+}
+
+
+.book a {
+  color: black !important;
 }
 
 /*** Animations for the services gallery ***/
@@ -424,5 +431,49 @@ table {
   width: 100%;
   font-size: 50px;  
   gap: 20px;
+}
+
+
+/*** Styling for the form ***/
+
+.form-text {
+  display: flex;
+  padding-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+
+.form {
+  text-align: left;
+  width: 50%;
+}
+
+
+.form-image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  margin-left: 100px;
+}
+.form-image img {
+ width: 430px;
+ height: 450px;
+}
+
+Form {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
 }
 

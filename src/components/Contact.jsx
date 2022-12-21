@@ -37,10 +37,10 @@ const ContactUs = () => {
                     <p className="contact-us-paragraph">Pomenos nuestros canales a tu disposición. ¡Será un placer atenderte!</p>
                 </div>
                 <div className="contact-us-means">
-                    <a className="whatsapp" href="https://wa.me/+50378303101?text=Hola, quisiera hacer una consulta" target="_blank" rel="noopener noreferrer">
+                    <a className="whatsapp" href="https://wa.me/+50378303101?text=Hola, quisiera hacer una consulta/reservacion" target="_blank" rel="noopener noreferrer">
                         <button className="whatsapp"><BsWhatsapp /></button>
                     </a>
-                    <a className="email" href="mailto:odontoplusclinic@gmail.com" target="blank"><button className="email"><MdOutlineMailOutline /></button></a>
+                    <a className="email" href="#form-container"><button className="email"><MdOutlineMailOutline /></button></a>
                     <a className="call-us" href="tel:+50378303101"><button className="call-us"><BiPhoneCall /></button></a>
                 </div>
             </div>
