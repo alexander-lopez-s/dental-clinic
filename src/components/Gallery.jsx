@@ -64,6 +64,7 @@ const ImageSlider = () => {
                     <p><FcCheckmark/> Lunes a Viernes - 8 am a 7pm</p>
                    <p> <FcCheckmark/> Sábados - 8am a 6pm </p>
                     <p><FcCheckmark/> Domingos - 8am a 1pm</p>
+                    <br></br>
                     <p><b>🗓️ Agenda tu cita</b></p>
                 <p> 📱 7830-3101  📞 2270-6503</p>
             </div>
